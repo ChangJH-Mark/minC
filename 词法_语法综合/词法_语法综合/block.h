@@ -17,9 +17,9 @@ Block *do_return(int, int);
 Block *do_else(int, int);
 Block *do_while(int, int);
 Block *do_common(int, int);
-Block * blockAnalyis(int begin, int end)
+Block * blockAnalyis(int begin, int end)     //begin即语句的第一个token ，end是函数 } 的前一位
 {
-	Block *ans=NULL;
+	Block *ans=NULL;//ans
 	if (begin > end)
 	{
 		printf("函数不满\n");
@@ -27,18 +27,18 @@ Block * blockAnalyis(int begin, int end)
 	}
 	else if (begin == end)
 		return NULL;
-	else
+	else         //保证从 begin 到 end之间的token能形成正确的语句
 	{
-		switch (token[begin].type)
+		switch (token[begin].type)      //语句第一个token 能区分出语句类型
 		{
 		case IF: ans = do_if(begin, end); break;
 		case ELSE: ans = do_else(begin, end); break;
 		case WHILE: ans = do_while(begin, end); break;
 		case RETURN: ans = do_return(begin, end); break;
-		default: ans = do_common(begin, end); break;
+		default: ans = do_common(begin, end); break;    
 		}
 		if (ans != NULL)
-			ans->left = blockAnalyis(ans->end + 1, end);
+			ans->left = blockAnalyis(ans->end + 1, end);   //ans->left接下一条语句块    ans已被分析出来   接下来的各种do函数能确定ans->end的值
 		return ans;
 	}
 }

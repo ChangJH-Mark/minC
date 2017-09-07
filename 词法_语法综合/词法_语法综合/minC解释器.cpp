@@ -14,8 +14,8 @@ int main()
 	printf("以下是函数的分析\n");
 	//system("pause");
 	string a = "agoodmethod";
-	inti_f(&head,INT,a, param, NULL, 0, token.size()-1);
-	head->next_func = funcAnalyis(0, token.size() - 1);
+	inti_f(&head,INT,a, param, NULL, 0, token.size()-1);  //inti_f   能将*head指的空间初始化
+	head->next_func = funcAnalyis(0, token.size() - 1);   //funcAnalyis  在token[begin]，token[end]中分离出函数
 	printfunc(head->next_func);
 	system("pause");
 		/*char path[50];

@@ -1,11 +1,20 @@
-﻿  minC解释器.cpp
-c:\users\常佳辉\desktop\词法_语法综合\词法_语法综合\method.h(125): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“int”
-c:\users\常佳辉\desktop\词法_语法综合\词法_语法综合\method.h(125): warning C4313: “printf”: 格式字符串中的“%s”与“int”类型的参数 2 冲突
-c:\users\常佳辉\desktop\词法_语法综合\词法_语法综合\method.h(126): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“std::string”
-c:\users\常佳辉\desktop\词法_语法综合\词法_语法综合\method.h(130): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“int”
-c:\users\常佳辉\desktop\词法_语法综合\词法_语法综合\method.h(130): warning C4313: “printf”: 格式字符串中的“%s”与“int”类型的参数 2 冲突
-c:\users\常佳辉\desktop\词法_语法综合\词法_语法综合\method.h(131): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“std::string”
-c:\users\常佳辉\desktop\词法_语法综合\词法_语法综合\minc解释器.cpp(17): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-c:\users\常佳辉\desktop\词法_语法综合\词法_语法综合\minc解释器.cpp(18): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-  词法_语法综合.vcxproj -> C:\Users\常佳辉\Desktop\词法_语法综合\x64\Debug\词法_语法综合.exe
-  词法_语法综合.vcxproj -> C:\Users\常佳辉\Desktop\词法_语法综合\x64\Debug\词法_语法综合.pdb (Partial PDB)
+﻿  Symbol Table.cpp
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\symbol table.cpp(144): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\symbol table.cpp(145): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\symbol table.cpp(165): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\symbol table.cpp(166): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  minC解释器.cpp
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\method.h(125): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“int”
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\method.h(125): warning C4313: “printf”: 格式字符串中的“%s”与“int”类型的参数 2 冲突
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\method.h(126): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“std::string”
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\method.h(130): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“int”
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\method.h(130): warning C4313: “printf”: 格式字符串中的“%s”与“int”类型的参数 2 冲突
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\method.h(131): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“std::string”
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\minc解释器.cpp(17): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\minc解释器.cpp(18): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  lex.cpp
+d:\gitrepo\minc\词法_语法综合\词法_语法综合\lex.cpp(33): warning C4101: “k”: 未引用的局部变量
+  正在生成代码...
+  LINK : 没有找到 D:\GitRepo\minC\词法_语法综合\x64\Debug\词法_语法综合.exe 或上一个增量链接没有生成它；正在执行完全链接
+  词法_语法综合.vcxproj -> D:\GitRepo\minC\词法_语法综合\x64\Debug\词法_语法综合.exe
+  词法_语法综合.vcxproj -> D:\GitRepo\minC\词法_语法综合\x64\Debug\词法_语法综合.pdb (Partial PDB)
